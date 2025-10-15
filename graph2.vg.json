@@ -4,12 +4,14 @@
 "data": {
 "url": "spotify.csv"
 },
-"mark": "bar",
+
 "encoding": {
 "x": { "aggregate": "mean", "field": "duration_ms", "type": "quantitative" },
 "y": { "field": "Genre", "type": "nominal" }
 },
-  "layer": [{
+  "layer": [
+    {"mark": "bar"},
+    {
     "mark": {
       "type": "text",
       "align": "left",
