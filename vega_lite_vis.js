@@ -1,7 +1,7 @@
-var graph1 = "graph1.vg.json";
-vegaEmbed("#graph1", graph1);
-// var graph2 = "graph2.vg.json";
-// vegaEmbed("#graph2", graph2);
+// var graph1 = "graph1.vg.json";
+// vegaEmbed("#graph1", graph1);
+var graph2 = "graph2.vg.json";
+vegaEmbed("#graph2", graph2);
 // var graph3 = "graph3.vg.json";
 // vegaEmbed("#graph3", graph3);
 // var graph4 = "graph4.vg.json";
