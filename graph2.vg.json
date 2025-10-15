@@ -17,7 +17,7 @@
       "dx": 3
     },
     "encoding": {
-      "text": {"field": "duration_ms", "type": "quantitative"}
+      "text": {"aggregate": "mean", "field": "duration_ms", "type": "quantitative"}
     }
   }]
 }
