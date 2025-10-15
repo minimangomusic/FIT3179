@@ -7,7 +7,18 @@
 "mark": "bar",
 "encoding": {
 "x": { "aggregate": "mean", "field": "duration_ms", "type": "quantitative" },
-"y": { "field": "Genre", "type": "nominal" },
-"text": {"field": "duration_ms", "type": "quantitative"}
+"y": { "field": "Genre", "type": "nominal" }
+
 }
+  "layer": [{
+    "mark": {
+      "type": "text",
+      "align": "left",
+      "baseline": "middle",
+      "dx": 3
+    },
+    "encoding": {
+      "text": {"field": "duration_ms", "type": "quantitative"}
+    }
+  }]
 }
