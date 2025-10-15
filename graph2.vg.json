@@ -8,5 +8,6 @@
 "encoding": {
 "x": { "aggregate": "mean", "field": "duration_ms", "type": "quantitative" },
 "y": { "field": "Genre", "type": "nominal" }
+"text": {"field": "duration_ms", "type": "quantitative"}
 }
 }
