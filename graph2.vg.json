@@ -6,7 +6,7 @@
 },
 "mark": "bar",
 "encoding": {
-"x": { "field": "duration_ms", "type": "quantitative" },
+"x": { "aggregate": "mean", "field": "duration_ms", "type": "quantitative" },
 "y": { "field": "Genre", "type": "nominal" }
 }
 }
