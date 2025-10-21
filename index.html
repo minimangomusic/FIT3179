@@ -8,12 +8,44 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 <script src="vega_lite_vis.js"></script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+</style>
+
+  
 <title>First Vega-Lite graph </title>
 </head>
 <body>
 <h1>First Vega-Lite graph</h1>
-<div id="graph1">
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <div id="graph1">
+    </div>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <div id="graph3">
+  </div>
+  </div>
 </div>
+  
+
 <div id="graph2">
 </div>
 <div id="graph3">
