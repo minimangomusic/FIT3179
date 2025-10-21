@@ -1,10 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "description": "Tempo against Duration",
   "data": {"url": "spotify.csv"},
+  "background": "beige",
+  "width": "400",
+  "height": "400",
   "mark": "point",
   "encoding": {
     "x": {"field": "tempo", "type": "quantitative"},
-    "y": {"field": "duration_ms", "type": "quantitative"}
+    "y": {"field": "duration_ms", "type": "quantitative", "title": "Duration"}
   }
 }
