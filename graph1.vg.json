@@ -1,8 +1,8 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "background": "Beige",
-   "width": 300,
-  "height": 300,
+   "width": 400,
+  "height": 400,
 "title": { "text": "Venues in Melbourne" },
 
 "layer": [
