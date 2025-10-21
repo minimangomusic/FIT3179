@@ -13,7 +13,7 @@
   "layer": [{
     "mark": {"type": "arc", "outerRadius": 150}
   }, {
-    "mark": {"type": "text", "radius": 170},
+    "mark": {"type": "text", "radius": 250},
     "encoding": {
       "text": {"field": "Genre", "color": "black", "type": "nominal"}
     }
