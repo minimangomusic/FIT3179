@@ -12,15 +12,18 @@
     "x": {
       "field": "danceability",
       "type": "quantitative",
-      "scale": {"zero": false}
+      "scale": {"zero": false}, 
+      "title": "Danceability"
     },
     "y": {
       "field": "energy",
       "type": "quantitative",
-      "scale": {"zero": false}
+      "scale": {"zero": false},
+      "title": "Energy"
     },
     "color": {"field": "Genre", "type": "nominal"},
-    "shape": {"field": "Genre", "type": "nominal"}
+    "shape": {"field": "Genre", "type": "nominal"},
+    "size": "1"
   }
 }
 
