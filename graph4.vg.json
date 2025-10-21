@@ -1,6 +1,6 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "genre most likely to chart -> items <3 omitted" },
+"title": { "text": "Genre most likely to chart -> Genres with less than 10 songs omitted" },
 "width": 600,
 "height": 600,
  "background": "beige",
