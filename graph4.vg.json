@@ -3,15 +3,16 @@
 "title": { "text": "genre most likely to chart -> items <3 omitted" },
 "width": 600,
 "height": 600,
+ "background": "beige",
 "data": {
 "url": "spotify_genre.csv"
 },
  "encoding": {
-    "theta": {"field": "count", "type": "quantitative", "stack": true},
+    "theta": {"field": "count", "type": "quantitative", "stack": true, "sort": "descending"},
     "color": {"field": "Genre", "type": "nominal", "legend": null}
   },
   "layer": [{
-    "mark": {"type": "arc", "outerRadius": 150}
+    "mark": {"type": "arc", "outerRadius": 200}
   }, {
     "mark": {"type": "text", "radius": 250},
     "encoding": {
