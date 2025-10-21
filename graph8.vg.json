@@ -5,7 +5,7 @@
   "mark": "point",
   "encoding": {
     "x": {"field": "Days_since_release", "type": "quantitative"},
-    "y": {"field": "Artist_followers", "type": "quantitative"}
+    "y": {"field": "Genre", "type": "nominal"}
   }
 }
 
