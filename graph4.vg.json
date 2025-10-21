@@ -1,11 +1,11 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "genre most likely to chart" },
+"title": { "text": "genre most likely to chart -> items <3 omitted" },
 "data": {
-"url": "spotify.csv"
+"url": "spotify_genre.csv"
 },
  "encoding": {
-    "theta": {"aggregate": "count", "field": "genre", "type": "quantitative", "stack": true},
+    "theta": {"field": "count", "type": "quantitative", "stack": true},
     "color": {"field": "genre", "type": "nominal", "legend": null}
   },
   "layer": [{
