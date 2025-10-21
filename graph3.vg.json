@@ -1,7 +1,10 @@
 
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "Map" },
+"title": { "text": "Venues in Melbourne CBD" },
+  "width": 400,
+  "height": 400,
+  "background": "beige",
 
 "layer": [
 {
@@ -22,7 +25,8 @@
 "mark": "point",
 "encoding": {
 "longitude": { "field": "lon", "type": "quantitative" },
-"latitude": { "field": "lat", "type": "quantitative" }
+"latitude": { "field": "lat", "type": "quantitative" },
+  "color": { "field": "space_type":, "type": "nominal" }
 }
   }
 ]
