@@ -1,12 +1,13 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "types of music venue in Melbourne" },
+"title": { "text": "Types of music venue in Melbourne" },
+  "background": "beige",
 "data": {
 "url": "live_music_venues.csv"
 },
 "mark": "bar",
 "encoding": {
-"x": { "field": "space_type", "type": "nominal" },
-"y": { "aggregate": "count", "field": "space_type", "type": "quantitative" }
+"x": { "field": "space_type", "type": "nominal", "sort": "y" },
+"y": { "aggregate": "count", "field": "space_type", "type": "quantitative", "title": "Space Type" }
 }
 }
