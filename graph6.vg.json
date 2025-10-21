@@ -1,12 +1,24 @@
 {
-"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"title": { "text": "Cheapest European Cities" },
-"data": {
-"url": "live_music_venues.csv"
-},
-"mark": "bar",
-"encoding": {
-"x": { "field": "daily_cost", "type": "quantitative" },
-"y": { "field": "city", "type": "nominal" }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "energy and danceability for genre",
+  "data": {
+    "url": "spotify_genre.csv"
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "danceability",
+      "type": "quantitative",
+      "scale": {"zero": false}
+    },
+    "y": {
+      "field": "energy",
+      "type": "quantitative",
+      "scale": {"zero": false}
+    },
+    "color": {"field": "Genre", "type": "nominal"},
+    "shape": {"field": "Genre", "type": "nominal"}
+  }
 }
-}
+
+
