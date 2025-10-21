@@ -1,10 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "background": "Beige"
   "data": {"url": "spotify.csv"},
   "mark": "point",
   "encoding": {
-    "x": {"field": "Days_since_release", "type": "quantitative"},
+    "x": {"field": "Days_since_release", "type": "quantitative", "title": "Days since release"},
     "y": {"field": "Genre", "type": "nominal"}
   }
 }
