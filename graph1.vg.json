@@ -1,7 +1,9 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"background": "purple",
-"title": { "text": "Map" },
+"background": "Beige",
+   "width": 300,
+  "height": 300,
+"title": { "text": "Venues in Melbourne" },
 
 "layer": [
 {
@@ -22,7 +24,8 @@
 "mark": "point",
 "encoding": {
 "longitude": { "field": "lon", "type": "quantitative" },
-"latitude": { "field": "lat", "type": "quantitative" }
+"latitude": { "field": "lat", "type": "quantitative" },
+  "color": { "field": "space_type", "type": "nominal"}
 }
   }
 ]
