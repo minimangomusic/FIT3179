@@ -6,14 +6,14 @@
 },
  "encoding": {
     "theta": {"field": "count", "type": "quantitative", "stack": true},
-    "color": {"field": "genre", "type": "nominal", "legend": null}
+    "color": {"field": "Genre", "type": "nominal", "legend": null}
   },
   "layer": [{
     "mark": {"type": "arc", "outerRadius": 80}
   }, {
     "mark": {"type": "text", "radius": 90},
     "encoding": {
-      "text": {"field": "genre", "type": "nominal"}
+      "text": {"field": "Genre", "type": "nominal"}
     }
   }]
 }
