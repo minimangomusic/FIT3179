@@ -6,6 +6,6 @@
 },
 "mark": "pie",
 "encoding": {
-"x": { "aggregate": "count", "field": "genre", "type": "quantitative" },
+"x": { "aggregate": "count", "field": "genre", "type": "quantitative" }
 }
 }
