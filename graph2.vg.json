@@ -1,6 +1,7 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "title": { "text": "track lengths of spotify songs by genre" },
+  "background": "beige",
 "data": {
 "url": "spotify.csv"
 },
