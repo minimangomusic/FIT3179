@@ -1,6 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "energy and danceability for genre",
+  "description": "Energy and danceability per genre",
+  "width": 600,
+  "height": 600,
+  "background": "beige",
   "data": {
     "url": "spotify_genre.csv"
   },
