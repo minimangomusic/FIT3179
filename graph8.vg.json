@@ -4,7 +4,7 @@
   "data": {"url": "spotify.csv"},
   "mark": "point",
   "encoding": {
-    "x": {"field": "Genre", "type": "quantitative"},
+    "x": {"field": "Genre", "type": "qualitative"},
     "y": {"field": "Days_since_release", "type": "quantitative"}
   }
 }
